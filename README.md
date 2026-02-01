@@ -20,7 +20,7 @@ This method creates the tool directly in your application list so it is ready to
 3.  In the folder that opens, **Right-click > New > Shortcut**.
 4.  In the location box, paste the code below (replace `"C:\Your\Path\To\select-files.ps1"` with the actual location where you saved the script):
     ```powershell
-    powershell.exe -ExecutionPolicy Bypass -File "C:\Your\Path\To\select-files.ps1"
+    -ExecutionPolicy Bypass -File "C:\Your\Path\To\select-files.ps1"
     ```
 5.  Click **Next**, name it **"Select Files"**, and click **Finish**.
 
