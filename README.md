@@ -20,12 +20,21 @@ This method creates the tool directly in your application list so it is ready to
 3.  In the folder that opens, **Right-click > New > Shortcut**.
 4.  In the location box, paste the code below (replace `"C:\Your\Path\To\select-files.ps1"` with the actual location where you saved the script):
     ```powershell
-    -ExecutionPolicy Bypass -File "C:\Your\Path\To\select-files.ps1"
+    powershell.exe -ExecutionPolicy Bypass -File "C:\Your\Path\To\select-files.ps1"
     ```
 5.  Click **Next**, name it **"Select Files"**, and click **Finish**.
 
-### 3. Pin to Start (Optional)
-The tool is now installed. To make it even faster to access:
+### 3. Change the Icon (Optional)
+To make the tool look professional, you can replace the default PowerShell icon with a custom `.ico` file.
+
+1.  In the folder where you just created the shortcut, **Right-click** the "Select Files" shortcut and select **Properties**.
+2.  Go to the **Shortcut** tab and click the **Change Icon...** button.
+    * *Note: If a warning appears saying the file contains no icons, just click OK.*
+3.  Click **Browse** and locate your `.ico` file (or select a system icon).
+4.  Select the icon, click **OK**, then click **Apply** and **OK**.
+
+### 4. Pin to Start
+The tool is now installed and styled. To make it even faster to access:
 1.  Open your **Start Menu** and search for **"Select Files"**.
 2.  Right-click the icon and select **Pin to Start**.
 
