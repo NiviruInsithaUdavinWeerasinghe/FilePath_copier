@@ -2,6 +2,8 @@
 
 **A PowerShell utility to bulk-select folders via a GUI and instantly copy all file paths to your clipboard.**
 
+> **⚠️ WARNING:** Be careful when selecting folders that contain a massive amount of files (like an entire drive). Selecting hundreds of thousands of files at once can overload your system's memory, causing the script to freeze or your computer to crash.
+
 ---
 
 ## 🚀 How to Setup & Pin to Start
